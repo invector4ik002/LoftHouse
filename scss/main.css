@@ -290,6 +290,9 @@ nav {
   -webkit-transition: opacity 0.2s ease-in;
   transition: opacity 0.2s ease-in;
 }
+.card:hover {
+  color: #fff;
+}
 .card:hover::after {
   opacity: 1;
 }
