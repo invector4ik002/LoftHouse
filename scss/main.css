@@ -234,6 +234,16 @@ nav {
   background-image: url(./../../img/header/phone-call.svg);
 }
 
+.appartments__title {
+  margin-bottom: 88px;
+}
+
+.appartments__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
 .benefits {
   padding: 150px 0px 150px 0px;
 }
@@ -265,6 +275,7 @@ nav {
 }
 
 .card {
+  overflow: hidden;
   position: relative;
   display: inline-block;
 }
@@ -295,6 +306,18 @@ nav {
 }
 .card:hover::after {
   opacity: 1;
+}
+
+.card__img {
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.card:hover .card__img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: contrast(110%) brightness(1.2) saturate(1.2);
+          filter: contrast(110%) brightness(1.2) saturate(1.2);
 }
 
 .card__title {

@@ -1,4 +1,6 @@
 .card {
+    // z-index: 1;
+    overflow:hidden;
     position: relative;
     display: inline-block;
 
@@ -39,6 +41,13 @@
     }
 }
 .card__img {
+    // position: relative;
+    // z-index: 1;
+    transition: all 0.2s ease-in;
+}
+.card:hover .card__img {
+    transform: scale(1.1);
+    filter:contrast(110%) brightness(1.2) saturate(1.2);
 }
 .card__title {
     position: absolute;

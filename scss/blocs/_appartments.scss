@@ -1,8 +1,13 @@
 .appartments {
+    // display:inline-block;
 }
 
-.appartments_title {
+.appartments__title {
+    margin-bottom: 88px;
 }
 
-.appartments_cards {
+.appartments__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
