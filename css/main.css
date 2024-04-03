@@ -333,10 +333,16 @@ nav {
 
 .cta {
   padding: 180px 0px 180px 0px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10.42%, #242B33), color-stop(50.52%, rgba(36, 43, 51, 0)), color-stop(90.1%, #242B33)), -webkit-gradient(linear, left bottom, left top, from(rgba(36, 43, 51, 0.9)), to(rgba(36, 43, 51, 0.9))), url("./../../img/cta/Rectangle.jpeg"), #c4c4c4;
-  background: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url("./../../img/cta/Rectangle.jpeg"), #c4c4c4;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10.417%, rgb(36, 43, 51)), color-stop(50.521%, rgba(36, 43, 51, 0)), color-stop(90.104%, rgb(36, 43, 51))), -webkit-gradient(linear, left bottom, left top, from(rgba(57, 67, 78, 0.9)), to(rgba(60, 72, 83, 0.9))), url("./../../img/cta/Rectangle.jpeg");
+  background: linear-gradient(180deg, rgb(36, 43, 51) 10.417%, rgba(36, 43, 51, 0) 50.521%, rgb(36, 43, 51) 90.104%), linear-gradient(0deg, rgba(57, 67, 78, 0.9), rgba(60, 72, 83, 0.9)), url("./../../img/cta/Rectangle.jpeg");
 }
 
 .cta__title {
   margin-bottom: 17px;
+}
+
+.cta__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
