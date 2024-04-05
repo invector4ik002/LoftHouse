@@ -1,23 +1,12 @@
 .cta {
     padding: 180px 0px 180px 0px;
 
-    // background:
-    //  linear-gradient(
-    //     180deg,
-    //     $dark 10.42%,
-    //     rgba(36, 43, 51, 0) 50.52%,
-    //     $dark 90.1%
-    // ),
-    // linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)),
-    // url('./../../img/cta/Rectangle.jpeg'), #c4c4c4;
-
     background: linear-gradient(
         180.00deg,
      rgb(36, 43, 51) 10.417%,
      rgba(36, 43, 51, 0) 50.521%,
     rgb(36, 43, 51) 90.104%),
     linear-gradient(0deg, rgba(57, 67, 78, 0.9), rgba(60, 72, 83, 0.9)),url('./../../img/cta/Rectangle.jpeg'),
-    //  rgb(255, 0, 0);
 }
 
 .cta__title {
@@ -34,5 +23,8 @@
     line-height: 1.5;
 }
 
-.cta__forn {
+.cta__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px 30px;
 }
