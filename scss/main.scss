@@ -1,12 +1,13 @@
 @import './base/reset';
 @import './base/vars';
 @import './base/base';
+@import './base/mixins';
 
 // Block styles header
 @import './blocs/header';
 @import './blocs/nav';
 @import './blocs/info';
-@import './blocs/appartments';
+@import './blocs/apartments';
 @import './blocs/benefit';
 @import './blocs/card';
 @import './blocs/cta';

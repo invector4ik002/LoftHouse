@@ -1,5 +1,21 @@
 .section-map {
   padding: 180px 0px 180px 0px;
+
+  position: relative;
+
+  &::after {
+      content: "V";
+      position: absolute;
+      font-family: $font-accent;
+
+      font-size: 400px;
+      opacity: 0.02;
+
+      top: 121px;
+      right: calc(50% + 310px);
+      transform: translate(-50%, 0%);
+      line-height: 1.15;
+  }
 }
 
 .section-map__title {
